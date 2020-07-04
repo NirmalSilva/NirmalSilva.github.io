@@ -1,23 +1,37 @@
 .hero{
+    
     width: 100vw;
     height: 400px;
-    background: url(./images/hero.jpg) no-repeat center fixed; 
+background: url(./images/hero.jpg) no-repeat center fixed; 
     background-size: cover;
+    display flex ;
+    flex-direction: column;
 }
 
+.hero nav{
+    align-self: flex-end;
+}
 body{
     font-family: 'Open Sans', sans-serif;
-    margin: 20px;
-    
+    margin: 0px; 
 }
-h1{
-    background-color: royalblue;
-    color: seashell;
+main{
+    margin: 20px;
+}
+.hero h1{
+    
+    color: rgb(1, 10, 1);
     text-align: center;
-    padding: 1px;
+    padding: 0px;
     font-size: 48px;
 }
 
+.hero h2{
+        color: rgb(10, 1, 1);
+    text-align: center;
+    padding: 200px;
+    font-size: 20px;
+}
 h2{
     margin: 30 0;
 }
